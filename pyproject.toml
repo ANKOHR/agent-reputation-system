@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-reputation-system"
+version = "0.1.0"
+description = "Deterministic observed agent reliability by task type"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ars = "agent_reputation_system.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["agent_reputation_system*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

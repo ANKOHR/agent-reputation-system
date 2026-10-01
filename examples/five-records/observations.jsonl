@@ -1,0 +1,6 @@
+# SYNTHETIC hand-written five-record example, not Henry's real results
+{"id":"tiny-1","agent":"atlas","task_type":"coding","outcome":"success","completed_at":"2026-09-01","synthetic":true}
+{"id":"tiny-2","agent":"atlas","task_type":"coding","outcome":"failure","completed_at":"2026-09-02","synthetic":true}
+{"id":"tiny-3","agent":"atlas","task_type":"research","outcome":"success","completed_at":"2026-09-03","synthetic":true}
+{"id":"tiny-4","agent":"beacon","task_type":"coding","outcome":"success","completed_at":"2026-09-04","synthetic":true}
+{"id":"tiny-5","agent":"beacon","task_type":"research","outcome":"failure","completed_at":"2026-09-05","synthetic":true}
