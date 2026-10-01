@@ -1,0 +1,9 @@
+Agent Reputation System local build complete, 2026-10-01
+
+Test count: 42 passed (python -m pytest -q).
+Local implementation commit: 45772581abcc4336d4dd5f48a77aef1d15185aca
+This hash identifies the tested implementation and evidence; the next documentation commit adds this completion record.
+Branch: main. Publishing was not performed and remains the separate verification step.
+Measured synthetic full demo: 0.7361772 seconds. JSON report: 0.2035932 seconds.
+
+Built a working Python ars CLI that parses local JSONL, JSON and CSV observations, validates schema and adversarial values, computes exact historical reliability per agent/task and task type, and renders deterministic Markdown or JSON with provenance, failure IDs and source hashes. It includes 200 labelled synthetic fixtures with independent hand-computed ground truth, a five-record hand-written synthetic example, observed ranking and failure subcommands, atomic output handling, 42 passing acceptance tests, complete usage and honesty documentation, local measured acceptance evidence and KOML lessons. No real operating data, predicted reliability, savings or two-week verdict is fabricated; the real-use improvement hook and eventual verdict are documented and pending evidence.
